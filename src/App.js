@@ -1,17 +1,15 @@
-
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import MonsterArray from './components/monster-array/monster-array.component';
+import IntroductionPage from './routes/introduction-page';
+import ProjectMainPage from './components/project-main-page/project-main-page.component';
 
-function App() {
-
-
+const App = () => {
   return (
-    <div className="App">
-      <h1>Monster Rolodex</h1>
-      <MonsterArray />
-
-    </div>
-  );
+    <Routes>
+      <Route path="/" element={<IntroductionPage />} />
+      <Route path="monster-rolodex" element={<ProjectMainPage />} />
+    </Routes>
+  )
 }
 
 export default App;

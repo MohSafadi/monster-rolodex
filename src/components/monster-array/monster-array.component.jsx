@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import MonsterList from '../monster.list.component';
-import SearchBox from '../search.box.component';
+import MonsterList from '../monster-list.component';
+import SearchBox from '../search-box.component';
 
 //This is the main page where we fetch the monster list from the API.
 //This page also includes the search functionality.

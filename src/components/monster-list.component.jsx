@@ -1,4 +1,4 @@
-import MonsterCard from "./monster.card.component";
+import MonsterCard from "./monster-card.component";
 
 //We map through the "newMonsterList" array which we are taking in as a prop from the main "App" page
 //Then we output the mapped result int the "MonsterCard" component which has the basic card HTML

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const IntroductionPage = () => {
 
     //The main page when going to the website, it contains simple HTML that describe the project
@@ -15,7 +17,10 @@ const IntroductionPage = () => {
                 <li>React Router Dom</li>
                 <li>Mapping & Filtering Arrays</li>
             </ul>
-            <button>To Project</button>
+
+            <Link to="/monster-rolodex" >To The Project</Link>
+
+
         </div>
     )
 }
