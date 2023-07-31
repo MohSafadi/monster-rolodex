@@ -1,7 +1,8 @@
-import MonsterCard from "./monster-card.component";
+import MonsterCard from "../monster-card/monster-card.component";
+import './monster-list.styles.scss';
 
-//We map through the "newMonsterList" array which we are taking in as a prop from the main "App" page
-//Then we output the mapped result int the "MonsterCard" component which has the basic card HTML
+//We map through the "newMonsterList" array which we are taking in as a prop from the "monster-array" page
+//Then we output the mapped result to the "MonsterCard" component which has the basic card HTML
 //Result is a monster card for each mapped monster from the array
 const MonsterList = (props) => {
     return (

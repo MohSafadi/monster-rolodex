@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
-import './App.css';
-import IntroductionPage from './routes/introduction-page';
-import ProjectMainPage from './components/project-main-page/project-main-page.component';
+import './App.scss';
+import IntroductionPage from './routes/introduction-page/introduction-page.component';
+import ProjectMainPage from './routes/project-main-page/project-main-page.component';
 
 const App = () => {
   return (

@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
-import MonsterList from '../monster-list.component';
-import SearchBox from '../search-box.component';
+import MonsterList from '../monster-list/monster-list.component';
+import SearchBox from '../search-box/search-box.component';
+import './monster-array.styles.scss';
 
 //This is the main page where we fetch the monster list from the API.
 //This page also includes the search functionality.
@@ -16,7 +17,7 @@ const MonsterArray = () => {
 
 
     //useEffect is used to fetch so we avoid the unlimited mounting loop that fetch would cause with react.
-    //we fetch the users and set them into the main array "setMonsterList"
+    //we fetch the users and set them into the main array "setMonsterList".
     useEffect(() => {
         fetch("https://jsonplaceholder.typicode.com/users")
             .then((response) => response.json())
@@ -24,7 +25,7 @@ const MonsterArray = () => {
     }, []);
 
     //Simple handler to track the string input in the searchBox.
-    //The string is set to lower case to make searching ignore case sensitivity.
+    //The string is set to lower case to ignore case sensitivity during search.
     //Finally its set into the "monsterSearch" useState.
     const handleSearch = (event) => {
         const searchString = event.target.value.toLocaleLowerCase();

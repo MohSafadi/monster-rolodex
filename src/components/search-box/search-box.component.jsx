@@ -1,4 +1,4 @@
-//This is a simple search box, the props are taken from the main "App" page.
+//This is a simple search box, the props are taken from the main "monster-array" page.
 //We are using this search box to search through the "newMonsterList" array.
 const SearchBox = (props) => {
     return (
