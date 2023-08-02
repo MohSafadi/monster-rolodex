@@ -45,7 +45,7 @@ const MonsterArray = () => {
 
     return (
         //This component's data is shared between the "SearchBox" and "MonsterList" components as props.
-        <div>
+        <div className='project-main-page'>
             <SearchBox value={monsterSearch} onChangeHandler={handleSearch} placeholder="Search Monsters" />
 
             <MonsterList newMonsterList={newMonsterList} />

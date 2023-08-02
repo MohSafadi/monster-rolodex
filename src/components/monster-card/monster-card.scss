@@ -1,17 +1,25 @@
 .monster-card {
 
-    border: 1px solid black;
+    border: 2px solid black;
+    background: #AEBD38;
     border-radius: 5%;
-    flex: 0 0 33.3333%;
-    max-width: 20%;
-    margin: 5px 5px;
+    padding-bottom: 30px;
+    width: 240px;
+    height: 300px;
+    margin: 10px;
+    transition: transform .5s;
 
+
+    &:hover {
+        transform: scale(1.1)
+    }
 
 
     h2,
     p {
-        color: #B5C99A;
-        margin: 5px;
+        color: #2A3132;
     }
+
+
 
 }

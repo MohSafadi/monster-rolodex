@@ -6,12 +6,11 @@ import './project-main-page.styles.scss';
 const ProjectMainPage = () => {
     return (
         <div className="App">
-            <Link to='/'>Intro page</Link>
-            <h1>Monster Rolodex</h1>
-            <div className='monster-list'>
-                <MonsterArray />
+            <div className='heading'>
+                <Link className="heading-intro-link" to='/'>Intro page</Link>
+                <h1 className='heading-title'>MONSTER ROLODEX</h1>
             </div>
-
+            <MonsterArray />
         </div>
 
     )
