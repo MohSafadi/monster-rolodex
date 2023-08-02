@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import './introduction-page.styles.scss';
 
 const IntroductionPage = () => {
-
     //The home page, it contains simple HTML that describe the project.
     //The button will take the user to the main project page.
     return (
