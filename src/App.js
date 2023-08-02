@@ -7,7 +7,7 @@ const App = () => {
   return (
     <Routes>
       <Route path="/" element={<IntroductionPage />} />
-      <Route path="monster-rolodex" element={<ProjectMainPage />} />
+      <Route path="/directory" element={<ProjectMainPage />} />
     </Routes>
   )
 }
