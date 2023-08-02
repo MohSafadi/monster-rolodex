@@ -6,8 +6,9 @@ import ProjectMainPage from './routes/project-main-page/project-main-page.compon
 const App = () => {
   return (
     <Routes>
-      <Route path="/" element={<IntroductionPage />} />
-      <Route path="/directory" element={<ProjectMainPage />} />
+      <Route path="/monster-rolodex" element={<IntroductionPage />} />
+      <Route path="/monster-rolodex/directory" element={<ProjectMainPage />} />
+
     </Routes>
   )
 }
