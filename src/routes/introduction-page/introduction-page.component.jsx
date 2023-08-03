@@ -25,7 +25,7 @@ const IntroductionPage = () => {
                 </div>
 
             </div>
-            <Link className="project-link" to="/monster-rolodex/directory" >To The Project</Link>
+            <Link className="project-link" to="directory" >To The Project</Link>
         </div>
     )
 }

@@ -7,7 +7,7 @@ const ProjectMainPage = () => {
     return (
         <div className="App">
             <div className='heading'>
-                <Link className="heading-intro-link" to='/monster-rolodex'>Intro page</Link>
+                <Link className="heading-intro-link" to='/'>Intro page</Link>
                 <h1 className='heading-title'>MONSTER ROLODEX</h1>
             </div>
             <MonsterArray />
