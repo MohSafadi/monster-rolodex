@@ -1,4 +1,4 @@
-import { Link, Outlet } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import MonsterArray from '../../components/monster-array/monster-array.component';
 import './project-main-page.styles.scss';
 
