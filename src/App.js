@@ -8,7 +8,6 @@ const App = () => {
     <Routes>
       <Route path='/monster-rolodex' element={<IntroductionPage />} />
       <Route path="/monster-rolodex/directory" element={<ProjectMainPage />} />
-
     </Routes>
   )
 }
